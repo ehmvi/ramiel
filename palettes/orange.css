@@ -1,0 +1,40 @@
+/* -----------------------------------------------
+   palette orange : pour distinguer un 2e client
+   discord d un coup d oeil (equibop a cote de vesktop).
+   figee, ne suit pas le fond d ecran (voulu).
+
+   valeurs : matugen, schema sombre, tonal-spot,
+   graine #f08c28. pour regenerer :
+     matugen --dry-run -j hex color hex "#f08c28"
+----------------------------------------------- */
+:root {
+    --m-surface: #19120c;
+    --m-surface-lowest: #140d08;
+    --m-surface-low: #221a14;
+    --m-surface-container: #261e18;
+    --m-surface-high: #312822;
+    --m-surface-highest: #3c332c;
+
+    --m-on-surface: #efe0d6;
+    --m-on-surface-variant: #d6c3b6;
+    --m-outline: #9e8e82;
+    --m-outline-variant: #51443b;
+
+    --m-primary: #ffb77c;
+    --m-on-primary: #4d2700;
+    --m-primary-container: #6c3a06;
+    --m-on-primary-container: #ffdcc2;
+    --m-primary-fixed: #ffdcc2;
+
+    --m-secondary: #e3c0a6;
+    --m-secondary-container: #5a422e;
+    --m-tertiary: #c4cb96;
+    --m-tertiary-container: #444a21;
+    --m-error: #ffb4ab;
+
+    /* hors matugen : le rouge-orange du core de ramiel se perdrait dans
+       l orange, on passe a un cramoisi pour mentions, dnd, mute/deafen */
+    --m-core: #ec3b52;
+    /* hors matugen : ambre pour idle */
+    --m-ambre: #d9c27a;
+}
